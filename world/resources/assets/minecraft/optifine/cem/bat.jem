@@ -1,0 +1,27 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-3, 21, -3, 6, 6, 6], "textureOffset": [0, 0]},
+				{"coordinates": [-4, 26, -2, 3, 4, 1], "textureOffset": [24, 0]},
+				{"coordinates": [-2, 19.5, -3.5, 1, 2, 1], "textureOffset": [0, 0]},
+				{"coordinates": [1, 19.5, -3.5, 1, 2, 1], "textureOffset": [0, 0]}
+			],
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [1, 26, -2, 3, 4, 1], "textureOffset": [24, 0]}
+					]
+				}
+			]
+		}
+	]
+}

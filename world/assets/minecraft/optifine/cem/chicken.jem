@@ -1,0 +1,100 @@
+{
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -9, 4],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-1.5, 9, -7, 3, 4, 4], "textureOffset": [0, 0]},
+				{"coordinates": [-0.5, 10, -8, 1, 1, 1], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "bill",
+			"id": "bill",
+			"invertAxis": "xy",
+			"translate": [0, -9, 4],
+			"mirrorTexture": "u"
+		},
+		{
+			"part": "chin",
+			"id": "chin",
+			"invertAxis": "xy",
+			"translate": [0, -9, 4],
+			"mirrorTexture": "u"
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -11, 3],
+			"rotate": [33, 0, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-2, 3.49232, -11.28162, 4, 8, 4], "textureOffset": [14, 0]}
+			],
+			"submodels": [
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [0, 3.15486, -2.3],
+					"rotate": [-45, 0, 0],
+					"submodels": [
+						{
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"boxes": [
+								{"coordinates": [-1.5, 0.76609, -4.28187, 3, 3, 1], "textureOffset": [10, 0]}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-2, -5, -1],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-1.5, 0, 0.8, 1, 4, 1], "textureOffset": [0, 8]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1, -5, -1],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [0.5, 0, 0.8, 1, 4, 1], "textureOffset": [7, 8]}
+			]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-3, -11, 0],
+			"rotate": [-10, 0, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [1, 6, -1, 1, 5, 5], "textureOffset": [30, 0]}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [3, -11, 0],
+			"rotate": [-10, 0, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-2, 6, -1, 1, 5, 5], "textureOffset": [0, 8]}
+			]
+		}
+	]
+}

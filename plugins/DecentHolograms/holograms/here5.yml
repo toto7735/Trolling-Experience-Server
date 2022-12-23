@@ -1,0 +1,12 @@
+location: world:284.313:30.549:119.011
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&l<<<<'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,20 @@
+location: world:70.500:33.000:77.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&lSPOOK!'
+    height: 0.3
+  - content: '&fYou are &cstuck &fhere.'
+    height: 0.3
+  - content: '&f'
+    height: 0.3
+  - content: '&ego &c&lstraight &eahead.'
+    height: 0.3
+  - content: '&cYou better &echeck &fif there is a &eshiny place&f.'
+    height: 0.3
+  actions: {}

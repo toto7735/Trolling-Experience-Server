@@ -1,0 +1,156 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/stripped_spruce_log",
+		"5": "block/gold_block",
+		"7": "block/netherite_block",
+		"particle": "block/netherite_block"
+	},
+	"elements": [
+		{
+			"name": "handle",
+			"from": [7, 0, 7],
+			"to": [8, 4, 8],
+			"faces": {
+				"north": {"uv": [2, 1, 5.5, 14], "texture": "#5"},
+				"east": {"uv": [2, 1, 5.5, 14], "texture": "#5"},
+				"south": {"uv": [2, 1, 5.5, 14], "texture": "#5"},
+				"west": {"uv": [2, 1, 5.5, 14], "texture": "#5"},
+				"up": {"uv": [2, 1, 5.5, 14], "texture": "#5"},
+				"down": {"uv": [2, 1, 5.5, 14], "texture": "#5"}
+			}
+		}, 
+		{
+			"name": "blade",
+			"from": [4, 4, 7.5],
+			"to": [5, 11, 7.5],
+			"faces": {
+				"north": {"uv": [0, 3, 2.5, 14.5], "rotation": 180, "texture": "#7"},
+				"east": {"uv": [0, 2, 2.5, 13.5], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [14.5, 2, 16, 13.5], "rotation": 180, "texture": "#7"},
+				"west": {"uv": [0, 2, 2.5, 13.5], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [0, 2, 2.5, 13.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 2, 2.5, 13.5], "rotation": 180, "texture": "#0"}
+			}
+		}, 
+		{
+			"name": "blade",
+			"from": [5, 4, 7.5],
+			"to": [8, 10, 7.5],
+			"faces": {
+				"north": {"uv": [2, 2, 7.5, 12], "texture": "#7"},
+				"east": {"uv": [2, 2, 7.5, 12], "texture": "#7"},
+				"south": {"uv": [2, 2, 7.5, 12], "texture": "#7"},
+				"west": {"uv": [2, 2, 7.5, 12], "texture": "#7"},
+				"up": {"uv": [2, 2, 7.5, 12], "texture": "#7"},
+				"down": {"uv": [2, 2, 7.5, 12], "texture": "#7"}
+			}
+		}, 
+		{
+			"name": "blade",
+			"from": [5, 10, 7.5],
+			"to": [7, 11, 7.5],
+			"faces": {
+				"north": {"uv": [2, 2, 5, 4.5], "texture": "#7"},
+				"east": {"uv": [2, 2, 5, 4.5], "texture": "#7"},
+				"south": {"uv": [2, 2, 5, 4.5], "texture": "#7"},
+				"west": {"uv": [2, 2, 5, 4.5], "texture": "#7"},
+				"up": {"uv": [2, 2, 5, 4.5], "texture": "#7"},
+				"down": {"uv": [2, 2, 5, 4.5], "texture": "#7"}
+			}
+		}, 
+		{
+			"name": "blade",
+			"from": [5, 10, 7.5],
+			"to": [7, 11, 7.5],
+			"color": 7,
+			"faces": {
+				"north": {"uv": [0, 0, 1, 0.5], "texture": "#7"},
+				"east": {"uv": [0, 0, 0, 0.5], "texture": "#7"},
+				"south": {"uv": [0, 0, 1, 0.5], "texture": "#7"},
+				"west": {"uv": [0, 0, 0, 0.5], "texture": "#7"},
+				"up": {"uv": [0, 0, 1, 0], "texture": "#7"},
+				"down": {"uv": [0, 0, 1, 0], "texture": "#7"}
+			}
+		}, 
+		{
+			"name": "blade",
+			"from": [7, 10.5, 7.5],
+			"to": [8, 11, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [5.5, 2, 3, 3.25], "texture": "#7"},
+				"east": {"uv": [5.5, 2, 3, 3.25], "texture": "#7"},
+				"south": {"uv": [5.5, 2, 3, 3.25], "texture": "#7"},
+				"west": {"uv": [5.5, 2, 3, 3.25], "texture": "#7"},
+				"up": {"uv": [5.5, 2, 3, 3.25], "texture": "#7"},
+				"down": {"uv": [5.5, 2, 3, 3.25], "texture": "#7"}
+			}
+		}, 
+		{
+			"name": "blade",
+			"from": [7.5, 10, 7.5],
+			"to": [8, 10.5, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [3.25, 3, 2, 4.25], "texture": "#7"},
+				"east": {"uv": [3.25, 3, 2, 4.25], "texture": "#7"},
+				"south": {"uv": [3.25, 3, 2, 4.25], "texture": "#7"},
+				"west": {"uv": [3.25, 3, 2, 4.25], "texture": "#7"},
+				"up": {"uv": [3.25, 3, 2, 4.25], "texture": "#7"},
+				"down": {"uv": [3.25, 3, 2, 4.25], "texture": "#7"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [-1, 5.5, 0.25],
+			"scale": [1.22266, 1.22266, 1.22266]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0.25, 5.5, 0.25],
+			"scale": [1.22266, 1.22266, 1.22266]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 5.5, 0],
+			"scale": [1.22266, 1.22266, 1.22266]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 5.5, 0],
+			"scale": [1.22266, 1.22266, 1.22266]
+		},
+		"ground": {
+			"rotation": [90, 0, -180],
+			"translation": [0, -4.25, 0],
+			"scale": [1.22266, 1.22266, 1.22266]
+		},
+		"gui": {
+			"rotation": [0, -180, 35],
+			"translation": [0, 2.75, 0],
+			"scale": [1.22266, 1.22266, 1.22266]
+		},
+		"head": {
+			"rotation": [0, 0, 59.25],
+			"translation": [7.5, 9.75, 0],
+			"scale": [1.22266, 1.22266, 1.22266]
+		},
+		"fixed": {
+			"translation": [1.75, 3, 0],
+			"scale": [1.22266, 1.22266, 1.22266]
+		}
+	},
+	"groups": [
+		0, 
+		{
+			"name": "blade",
+			"origin": [16, 0, 0],
+			"color": 0,
+			"children": [1, 2, 3, 4, 5, 6]
+		}
+	]
+}

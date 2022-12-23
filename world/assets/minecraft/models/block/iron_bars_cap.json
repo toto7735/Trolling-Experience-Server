@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"bars": "block/iron_bars",
+		"particle": "block/iron_bars"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 8],
+			"to": [8, 0, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 0], "texture": "#bars"},
+				"east": {"uv": [0, 0, 1, 0], "texture": "#bars"},
+				"south": {"uv": [0, 0, 1, 0], "texture": "#bars"},
+				"west": {"uv": [0, 0, 1, 0], "texture": "#bars"},
+				"up": {"uv": [0, 0, 1, 0], "texture": "#bars"},
+				"down": {"uv": [0, 0, 1, 0], "texture": "#bars"}
+			}
+		}
+	]
+}

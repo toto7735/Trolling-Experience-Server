@@ -1,0 +1,11 @@
+{
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

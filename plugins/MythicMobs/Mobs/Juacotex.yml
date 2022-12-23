@@ -1,0 +1,144 @@
+Sasuke:
+    Type: Husk
+    Health: 600
+    Damage: 5
+    Armor: 10
+    Display: '&0&l&k33&l&9Sasuke&0&l&k33'
+    Options:
+        AlwaysShowName: true
+        PreventOtherDrops: true
+        Silent: true
+        KnockbackResistance: 1
+        PreventItemPickup: true
+        PreventMobKillDrops: true
+        PreventSunburn: true
+    Disguise: player Boifriend
+    BossBar:
+     Enabled: true
+     Title: '&0&l&k33&l&9Sasuke&0&l&k33'
+     Color: RED
+     Style: SEGMENTED_12e
+    Skills:
+        - skill{delay=200;s=Kirin} @target
+        - skill{s=Amaterasu} @target
+        #- command{c="weather world storm"} @self ~onSpawn
+Madara:
+    Type: Husk
+    Health: 600
+    Damage: 5
+    Armor: 10
+    Display: '&0&l&k33&l&4Madara&0&l&k33'
+    Options:
+        AlwaysShowName: true
+        PreventOtherDrops: true
+        Silent: true
+        KnockbackResistance: 1
+        PreventItemPickup: true
+        PreventMobKillDrops: true
+        PreventSunburn: true
+    Disguise: player MadaraUchicha 
+    BossBar:
+     Enabled: true
+     Title: '&0&l&k33&l&4Madara&0&l&k33'
+     Color: RED
+     Style: SEGMENTED_12e
+    Skills:
+        - skill{delay=200;s=BolaFuego} @target
+        - skill{delay=400;s=MeteoritoMadara} @target
+Hashirama:
+    Type: Husk
+    Health: 700
+    Damage: 10
+    Armor: 10
+    Display: '&0&l&k33&l&4Hashirama&0&l&k33'
+    Options:
+        AlwaysShowName: true
+        PreventOtherDrops: true
+        Silent: true
+        KnockbackResistance: 1
+        PreventItemPickup: true
+        PreventMobKillDrops: true
+        PreventSunburn: true
+    Disguise: player 
+        Type: player 
+        Skin: 'NimmsMitHumor'
+    BossBar:
+     Enabled: true
+     Title: '&0&l&k33&l&4Hashirama&0&l&k33'
+     Color: RED
+     Style: SEGMENTED_12e
+    Skills:
+        - skill{delay=200;s=MaderaAtaque} @target
+        - skill{delay=400;s=ClonMadera} @self
+Hashirama2:
+    Type: Husk
+    Health: 50
+    Damage: 1
+    Armor: 10
+    Display: '&0&l&k33&l&4Hashirama&0&l&k33'
+    Options:
+        AlwaysShowName: true
+        PreventOtherDrops: true
+        Silent: true
+        KnockbackResistance: 1
+        PreventItemPickup: true
+        PreventMobKillDrops: true
+        PreventSunburn: true
+    Disguise:
+        Type: player
+        Skin: 'cagandoregra'
+    Skills:
+        - skill{delay=100;s=ProyectilClon} @target
+        - skill{delay=200;s=IAClon} @self
+        - explosion{yield=6;fire=true;bd=true} @target ~onDeath
+        - message{m="<mob.name>&f<&co> &6Boom!"} @PlayersInRadius{r=30} ~onDeath
+Naruto:
+    Type: Husk
+    Health: 700
+    Damage: 10
+    Armor: 10
+    Display: '&0&l&k33&l&6Naruto&0&l&k33'
+    Options:
+        AlwaysShowName: true
+        PreventOtherDrops: true
+        Silent: true
+        KnockbackResistance: 1
+        PreventItemPickup: true
+        PreventMobKillDrops: true
+        PreventSunburn: true
+    Disguise:
+        Type: player
+        Skin: 'Hibunu'
+    BossBar:
+     Enabled: true
+     Title: '&0&l&k33&l&6Naruto&0&l&k33'
+     Color: RED
+     Style: SEGMENTED_12e
+    Skills:
+        - skill{delay=100;s=Rasengan} @target
+        - skill{delay=250;s=RasenShuriken} @target
+Kakashi:
+    Type: Husk
+    Health: 700
+    Damage: 10
+    Armor: 10
+    Display: '&0&l&k33&l&7Kakashi&0&l&k33'
+    Options:
+        AlwaysShowName: true
+        PreventOtherDrops: true
+        Silent: true
+        KnockbackResistance: 1
+        PreventItemPickup: true
+        PreventMobKillDrops: true
+        PreventSunburn: true
+    Disguise: player zabiecc
+        Type: player
+        Skin: 'zabiecc'
+    BossBar:
+     Enabled: true
+     Title: '&0&l&k33&l&7Kakashi&0&l&k33'
+     Color: RED
+     Style: SEGMENTED_12e
+    Skills:
+        - skill{delay=200;s=DragonAgua} @target
+        - skill{delay=100;s=Raikiri} @target
